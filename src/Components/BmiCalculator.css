@@ -1,0 +1,141 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 30%;
+}
+
+.calculator {
+  background-color: rgb(251, 244, 235);
+  width: 400px;
+  height: 600px;
+  border: 2px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 30%;
+  display: inline-block;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.body {
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.parameters {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.height {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.weight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+input {
+  height: 50px;
+  width: 70px;
+  border: none;
+  border-bottom: 3px solid;
+  border-color: blueviolet;
+  outline: none;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(251, 244, 235);
+}
+
+label {
+  margin: 10px;
+}
+
+button {
+  height: 30px;
+  width: 100px;
+  margin-top: 30px;
+  border-radius: 5px;
+  color: blueviolet;
+  border-color: blueviolet;
+}
+
+.display {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.result {
+  font-size: 30px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.verdict_Underweight {
+  color: rgb(24, 201, 255);
+}
+
+.verdict_Healty {
+  color: green;
+}
+
+.verdict_Overweight {
+  color: orange;
+}
+
+.verdict_Obese {
+  color: red;
+}
+
+.footer {
+  height: 15%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.underweight {
+  border-top: 3px solid;
+  border-color: rgb(24, 201, 255);
+}
+
+.healty {
+  border-top: 3px solid;
+  border-color: green;
+}
+
+.owerweight {
+  border-top: 3px solid;
+  border-color: orange;
+}
+
+.obese {
+  border-top: 3px solid;
+  border-color: red;
+}
+
+.describe {
+  color: blueviolet;
+  font-weight: bold;
+}
